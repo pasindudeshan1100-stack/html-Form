@@ -4,8 +4,173 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
 </head>
 <body>
+   <style>
+    body{
+        background-image:url(https://img.magnific.com/premium-photo/elegant-sight-white-tourist-bus-mediterranean-coast_153608-93266.jpg?semt=ais_hybrid&w=740&q=80);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position:center;
+    }
+   </style>
+   
+    <h1 class="text-center text-black" style="font-family:'Times New Roman', Times, serif">JAYASEKARA TOURS-BENTOTA</h1>
+    <h4 class="text-black text-center text-lowercase" style="font-family: 'Times New Roman', Times, serif;">Book your trip easily and safety</h4>
+    <h2 class="text-bg-info text-center text-uppercase" style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; ">Bus Booking Form</h2>
+   <div class="container mt-4">
+    <form action="" method="post"class="border border-dark rounded p-4 bg-info-subtle">
+    <div>
+        <div class="row">
+            <div class="col-6">
+            <label>Full Name</label> <br>
+           <input type="text"class="form-control" placeholder="Enter Full Name">
+            </div>
+            <div class="col-6">
+            <label>Departure Time</label><br>
+            <input class="form-control" type="time">
+
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-6">
+                <label>Email</label><br>
+                <input type="email" class="form-control" placeholder="Enter Email">
+
+            </div>
+            <div class="col-6">
+                <label>Trip Type</label><br>
+                <input  type="radio" name="tripType" value="One Way"> One Way
+                <input  type="radio" name="tripType" value="Round Trip"> Round Trip
+
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-6">
+                <label>Phone Number</label><br>
+                <input type="tel"  class="form-control" placeholder="Enter Phone Number">
+
+
+            </div>
+            <div class="col-6">
+                <label>Number of Passengers</label><br>
+                <input type="number"class="form-control">
+
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-6">
+             <label >Pickup Location</label><br>
+            <input type="text" class="form-control" placeholder="Pickup Location">
+            </div>
+            <div class="col-6">
+                <label>Bus Type</label><br>
+            <select name="busType"class="form-control">
+            <option value="">---- Select Bus Type ----</option>
+            <option value="Mini Bus">Mini Bus</option>
+            <option value="Luxury Bus">Luxury Bus</option>
+            <option value="AC Bus">AC Bus</option>
+            <option value="Normal Bus">Normal Bus</option>
+            </select>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-6">
+                <label >Destination</label>
+               <input type="text"class="form-control" placeholder="Destination">
+                 <label >Trip Date</label><br>
+                <input class="form-control"type="date">
+            </div>
+            <div class="col-6">
+                <label>Special Requests</label><br>
+                <textarea class="form-control" rows="4"></textarea>
+
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-6">
+              <br> <input type="submit" value="Book Now" class="btn btn-primary">
+            </div>
+            <div class="col-6">
+                <br><input type="reset" value="Clear" class="btn btn-danger">
+
+            </div>
+        </div>
+       <div>
+
+    </div>
+  </form>
+    </div>
     
+<style>
+
+
+
+.thank-you{
+    text-align:center;
+    font-size:35px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, Geneva, Tahoma, sans-serif, Helvetica, sans-serif, 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, serif;
+    color:#0707f8;
+    margin-top:30px;
+}
+
+
+
+/* Contact Box */
+
+.contact-box{
+    width:70%;
+    margin:20px auto;
+    border:1px solid #ccc;
+    background:#fff;
+    box-shadow:0 0 10px rgba(0,0,0,0.2);
+}
+
+/* Header */
+
+.contact-header{
+    background:#f1ee03;
+    padding:18px;
+    font: size 25px;
+    font-weight:bold;
+}
+
+/* Contact Details */
+
+.contact-details{
+    padding:20px;
+    font: size 20px;
+}
+
+.contact-details p{
+    margin: 1px;
+    width: fit-content;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<h1 class="thank-you">Thank You For Booking With Us</h1>
+
+<div class="contact-box">
+
+    <div class="contact-header">
+        More Information,Contact Us.
+    </div>
+
+    <div class="contact-details">
+        <p>📞 Phone : +94 77 123 4567</p>
+        <p>📧 Email : booking@gmail.com</p>
+        <p>📍 Address : No.123, Main Street, Colombo</p>
+    </div>
+
+</div>
+
+ 
 </body>
 </html>
